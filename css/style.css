@@ -1,0 +1,281 @@
+
+
+/*
+color pallette
+--brown #c7522a
+tan #e5c185
+light tan #fbf2c4
+greygreen #74a892
+tealish #008585
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+        text-align: center;
+    }
+
+    .nav-container logo {
+        display: flex;
+    }
+
+    .nav-container a{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .card-container {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .hobby-pics img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 5rem;
+        width: auto;
+    }
+}
+
+body {
+    font-family: 'Genos', sans-serif;
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+    color: white;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: none;
+    user-select: none;
+}
+
+.nav-container a {
+    margin: 4rem;
+    padding: 0rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 0.2rem;
+}
+
+.nav-container a:hover {
+    color: yellow;
+    transition: all ease-in-out 300ms;
+}
+
+.top-section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.hello-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello-container img {
+    height: 15rem;
+    width: auto;
+    border-radius: 15%;
+    padding: 2rem;
+}
+
+.card-section {
+    height: auto;
+    user-select: none;
+}
+
+.card-section h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.card-container button {
+    font-family: 'Genos', sans-serif;
+    color: black;
+    font-weight: bold;
+    border: 0.3rem solid black;
+    border-radius: 5rem;
+    background-color: grey;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-container button:hover {
+    color: yellow;
+    border: 0.3rem solid yellow;
+    transition: all ease-in-out 300ms;
+    height: 5.5rem;
+    width: auto;
+}
+
+.card-1 {
+    background-image: url(/images/reelthoughtsprev.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.card-2 {
+    background-image: url(/images/dnabuddyprev.png);
+    background-size: cover;
+}
+
+.card-3 {
+    background-image: url(/images/typecityprev.png);
+    background-size: cover;
+}
+
+.card-1, .card-2, .card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #e5c185;
+    height: 25rem;
+    width: 25rem;
+}
+
+
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.pics-container {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+.hobby-pics {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 15rem;
+    padding: 2rem;
+    padding: 0.5rem;
+}
+
+.contact-section {
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-header {
+    padding: 2rem;
+    user-select: none;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+
+.form-container input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.comment input {
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+    cursor: pointer;
+    padding: .5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background-color: #74a892;
+    padding: 1rem;
+    height: 20vh;
+    position: relative;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.social {
+    height: 1.5rem;
+    opacity: 80%;
+}
+
+.social:hover {
+    opacity: 100%;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: #333;
+}
