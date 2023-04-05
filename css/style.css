@@ -144,19 +144,19 @@ body {
 }
 
 .card-1 {
-    background-image: url(/root/images/reelthoughtsprev.png);
+    background-image: url(root/images/reelthoughtsprev.png);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 .card-2 {
-    background-image: url(/root/images/dnabuddyprev.png);
+    background-image: url(root/images/dnabuddyprev.png);
     background-size: cover;
 }
 
 .card-3 {
-    background-image: url(/root/images/typecityprev.png);
+    background-image: url(root/images/typecityprev.png);
     background-size: cover;
 }
 
